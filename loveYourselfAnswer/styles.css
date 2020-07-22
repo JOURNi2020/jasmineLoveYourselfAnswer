@@ -5,22 +5,35 @@ body {
 }
 
 .form {
-    text-align: center;
+    /* text-align: center; */
     background-color: lightskyblue;
     color: white;
     padding: 20px 50px;
     margin: 20px;
 }
 
-table {
-    border: solid 10px lightblue;
+table, th, td {
+	border: 3px darkblue solid;
+    text-align: center;
 }
 
-td {
-    border-right: 2px solid black;
-    border-bottom: 2px solid black;
-    border-top: 2px solid black;
-    border-left: 2px solid black;
+table {
+    /* getting rid of the double borders */
+    border-collapse: collapse;
+    /* making table span entire web screen --width of web page */
+    width: 100%;
+
+    margin: 30px 0px 10px 0px;
+}
+
+th {
+    /* making height of table headers taller */
+    height: 30px;
+}
+
+/* cool hover animation! */
+td:hover {
+    background-color: lightblue;
 }
 
 .navbar ul{
@@ -33,5 +46,20 @@ td {
 }
 
 button {
-    margin: 20px;
+    margin: 20px 0px 0px 0px;
+
+    border: solid 1px transparent;
+    border-radius: 4px;
+
+    padding: 10px 10px;
+
+    /* make sure colors have enough contrast! */
+    color: #ffffff;
+    background-color: #55bbff;
+}
+
+button:hover {
+    color: #55bbff;
+    border-color: currentColor;
+    background-color: white;
 }
