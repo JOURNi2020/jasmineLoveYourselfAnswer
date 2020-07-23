@@ -1,26 +1,31 @@
-.jumbotron {
+#main {
     background: url("https://i.pinimg.com/originals/7d/7c/79/7d7c79f57f2bf8fc2b43b9a5e5a2a96b.gif");
     background-size: cover;
     background-position: center;
     text-align: center;
 }
 
-.jumbotron .display-4 {
+#main .display-4 {
     font-family: 'Parisienne', cursive;
 }
 
-.jumbotron p {
+#main p {
     background-color: rgb(255, 255, 255, 0.5);
     padding: 5px 10px 5px 10px;
 }
 
-.jumbotron .btn {
+#main .btn {
     background-color: rgb(201, 147, 201, 0.5);
     border: 2px solid white;
 }
 
-.jumbotron .btn:hover {
+#main .btn:hover {
     color: white;
     border-color: currentColor;
     background-color: rgb(201, 147, 201, 1);
+}
+
+#secondJumbo {
+    color: black;
+    background-color: lightskyblue;
 }
