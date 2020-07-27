@@ -90,3 +90,11 @@ button:hover {
     border-color: currentColor;
     background-color: rgb(201, 147, 201, 1);
 }
+
+.logo {
+    width: 20%;
+}
+
+a {
+    width: 10%;
+}
